@@ -1,5 +1,5 @@
 # pmt
-Google PaymentMethodToken verifier
+An implementation of the recipient side of [Google Payment Method Token](https://developers.google.com/pay/api/web/guides/resources/payment-data-cryptography) for verifying [callbacks](https://developers.google.com/pay/passes/guides/overview/how-to/use-callbacks) from Google Pay API for Passes
 
 ```go
 d, err := pmt.NewGPayKeysDownloader(pmt.WithEndpoint(pmt.GooglePassesKeysURL))
