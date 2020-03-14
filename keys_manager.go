@@ -10,6 +10,7 @@ import (
 const (
 	GooglePayKeysURLProduction = "https://payments.developers.google.com/paymentmethodtoken/keys.json"
 	GooglePayKeysURLTest       = "https://payments.developers.google.com/paymentmethodtoken/test/keys.json"
+	GooglePassesKeysURL        = "https://pay.google.com/gp/m/issuer/keys"
 )
 
 type Key struct {
